@@ -1,0 +1,694 @@
+# depslib dependency file v1.0
+1583357694 source:c:\users\conor\documents\dev\alpharuntime\src\commands\assign.cpp
+	<iostream>
+	"../../include/commands/assign.h"
+	"../../include/runtime/environment.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\assign.h
+	"command.h"
+	<string>
+	<vector>
+
+1592499811 c:\users\conor\documents\dev\alpharuntime\include\commands\command.h
+	<string>
+	<vector>
+	"../runtime/environment.h"
+
+1582998934 c:\users\conor\documents\dev\alpharuntime\include\runtime\environment.h
+	<stack>
+	"../gui/window.h"
+	"resolver.h"
+	"searcher.h"
+	"data_pool.h"
+
+1582300769 c:\users\conor\documents\dev\alpharuntime\include\gui\window.h
+	<string>
+	"SDL.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_assert.h"
+	"SDL_atomic.h"
+	"SDL_audio.h"
+	"SDL_clipboard.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_filesystem.h"
+	"SDL_gamecontroller.h"
+	"SDL_haptic.h"
+	"SDL_hints.h"
+	"SDL_joystick.h"
+	"SDL_loadso.h"
+	"SDL_log.h"
+	"SDL_messagebox.h"
+	"SDL_mutex.h"
+	"SDL_power.h"
+	"SDL_render.h"
+	"SDL_rwops.h"
+	"SDL_sensor.h"
+	"SDL_shape.h"
+	"SDL_system.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_version.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<wchar.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<math.h>
+	<float.h>
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	<sal.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_config.h
+	"SDL_platform.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_platform.h
+	"AvailabilityMacros.h"
+	"TargetConditionals.h"
+	<winapifamily.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\begin_code.h
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\close_code.h
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_assert.h
+	"SDL_config.h"
+	"begin_code.h"
+	<signal.h>
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_atomic.h
+	"SDL_stdinc.h"
+	"SDL_platform.h"
+	"begin_code.h"
+	<sys/cpuinline.h>
+	<mbarrier.h>
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_endian.h
+	"SDL_stdinc.h"
+	<endian.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_atomic.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	<process.h>
+	<stdlib.h>
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_clipboard.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	<intrin.h>
+	<intrin.h>
+	<altivec.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<armintr.h>
+	<arm_neon.h>
+	<mm3dnow.h>
+	<immintrin.h>
+	<mmintrin.h>
+	<xmmintrin.h>
+	<emmintrin.h>
+	<pmmintrin.h>
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_gamecontroller.h"
+	"SDL_quit.h"
+	"SDL_gesture.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_pixels.h
+	"SDL_stdinc.h"
+	"SDL_endian.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_rect.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_pixels.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_surface.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_blendmode.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_blendmode.h
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keycode.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_keycode.h
+	"SDL_stdinc.h"
+	"SDL_scancode.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_scancode.h
+	"SDL_stdinc.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_gamecontroller.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_gesture.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"SDL_touch.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_touch.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_filesystem.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_haptic.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_joystick.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_hints.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_log.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_messagebox.h
+	"SDL_stdinc.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_power.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_render.h
+	"SDL_stdinc.h"
+	"SDL_rect.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_sensor.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_shape.h
+	"SDL_stdinc.h"
+	"SDL_pixels.h"
+	"SDL_rect.h"
+	"SDL_surface.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_system.h
+	"SDL_stdinc.h"
+	"SDL_keyboard.h"
+	"SDL_render.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1564032877 c:\users\conor\documents\dev\sdl2-2.0.10\x32bit_mingw\include\sdl2\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1592143343 c:\users\conor\documents\dev\alpharuntime\include\runtime\resolver.h
+	<string>
+	<map>
+	<vector>
+	"calculator.h"
+	"data_pool.h"
+
+1579036094 c:\users\conor\documents\dev\alpharuntime\include\runtime\calculator.h
+	<string>
+	<vector>
+	<map>
+
+1583006761 c:\users\conor\documents\dev\alpharuntime\include\runtime\data_pool.h
+	<string>
+	<map>
+	<vector>
+
+1591975762 c:\users\conor\documents\dev\alpharuntime\include\runtime\searcher.h
+	<string>
+	<vector>
+
+1583357701 source:c:\users\conor\documents\dev\alpharuntime\src\commands\call_command.cpp
+	<iostream>
+	"../../include/commands/call_command.h"
+	"../../include/runtime/environment.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\call_command.h
+	"command.h"
+	<string>
+	<vector>
+
+1583752974 source:c:\users\conor\documents\dev\alpharuntime\src\commands\clear_window.cpp
+	"../../include/commands/clear_window.h"
+	"../../include/runtime/environment.h"
+	"../../include/exception/syntax_error.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\clear_window.h
+	"command.h"
+	<string>
+	<vector>
+
+1583679194 c:\users\conor\documents\dev\alpharuntime\include\exception\syntax_error.h
+	<stdexcept>
+
+1592500599 source:c:\users\conor\documents\dev\alpharuntime\src\commands\command.cpp
+	<string>
+	<vector>
+	"../../include/commands/command.h"
+
+1583357729 source:c:\users\conor\documents\dev\alpharuntime\src\commands\console_in.cpp
+	<string>
+	<iostream>
+	"../../include/commands/console_in.h"
+	"../../include/runtime/environment.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\console_in.h
+	"command.h"
+
+1583357763 source:c:\users\conor\documents\dev\alpharuntime\src\commands\console_out.cpp
+	<string>
+	<vector>
+	<iostream>
+	"../../include/commands/console_out.h"
+	"../../include/runtime/environment.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\console_out.h
+	"command.h"
+	<string>
+	<memory>
+
+1583357751 source:c:\users\conor\documents\dev\alpharuntime\src\commands\console_out_ln.cpp
+	"../../include/commands/console_out_ln.h"
+	<iostream>
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\console_out_ln.h
+	"console_out.h"
+	<string>
+	<memory>
+
+1583753424 source:c:\users\conor\documents\dev\alpharuntime\src\commands\create_window.cpp
+	"../../include/commands/create_window.h"
+	"../../include/commands/command.h"
+	"../../include/runtime/resolver.h"
+	"../../include/exception/syntax_error.h"
+	<vector>
+	<string>
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\create_window.h
+	"command.h"
+	<string>
+	<vector>
+
+1583357770 source:c:\users\conor\documents\dev\alpharuntime\src\commands\custom_command.cpp
+	"../../include/commands/custom_command.h"
+	"../../include/runtime/environment.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\custom_command.h
+	<string>
+	<vector>
+	"command.h"
+
+1583753466 source:c:\users\conor\documents\dev\alpharuntime\src\commands\draw_rect.cpp
+	"../../include/commands/draw_rect.h"
+	"../../include/runtime/environment.h"
+	"../../include/exception/syntax_error.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\draw_rect.h
+	"command.h"
+	<string>
+	<vector>
+
+1583357868 source:c:\users\conor\documents\dev\alpharuntime\src\commands\end_custom_command.cpp
+	"../../include/commands/end_custom_command.h"
+	"../../include/runtime/environment.h"
+
+1583357927 c:\users\conor\documents\dev\alpharuntime\include\commands\end_custom_command.h
+	<string>
+	<vector>
+	"command.h"
+
+1583357790 source:c:\users\conor\documents\dev\alpharuntime\src\commands\end_while.cpp
+	"../../include/commands/end_while.h"
+	"../../include/runtime/environment.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\end_while.h
+	"command.h"
+	<memory>
+
+1583357868 source:c:\users\conor\documents\dev\alpharuntime\src\commands\endif.cpp
+	"../../include/commands/endif.h"
+	"../../include/runtime/environment.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\endif.h
+	"command.h"
+
+1583753472 source:c:\users\conor\documents\dev\alpharuntime\src\commands\hide_window.cpp
+	"../../include/commands/hide_window.h"
+	"../../include/exception/syntax_error.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\hide_window.h
+	"command.h"
+	<string>
+	<vector>
+
+1583753504 source:c:\users\conor\documents\dev\alpharuntime\src\commands\if.cpp
+	<iostream>
+	"../../include/commands/if.h"
+	"../../include/runtime/environment.h"
+	"../../include/exception/syntax_error.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\if.h
+	"command.h"
+	<memory>
+
+1583357835 source:c:\users\conor\documents\dev\alpharuntime\src\commands\memory_dump.cpp
+	<map>
+	<vector>
+	<string>
+	<iostream>
+	"../../include/commands/memory_dump.h"
+	"../../include/runtime/environment.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\memory_dump.h
+	"command.h"
+	<memory>
+
+1583753480 source:c:\users\conor\documents\dev\alpharuntime\src\commands\render_window.cpp
+	"../../include/commands/render_window.h"
+	"../../include/runtime/environment.h"
+	"../../include/exception/syntax_error.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\render_window.h
+	"command.h"
+	<string>
+	<vector>
+
+1583753488 source:c:\users\conor\documents\dev\alpharuntime\src\commands\show_window.cpp
+	"../../include/commands/show_window.h"
+	"../../include/exception/syntax_error.h"
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\show_window.h
+	"command.h"
+	<string>
+	<vector>
+
+1583753497 source:c:\users\conor\documents\dev\alpharuntime\src\commands\wait.cpp
+	"../../include/commands/wait.h"
+	"../../include/exception/syntax_error.h"
+	<vector>
+	<string>
+
+1583357968 c:\users\conor\documents\dev\alpharuntime\include\commands\wait.h
+	"command.h"
+	<string>
+	<vector>
+
+1583753510 source:c:\users\conor\documents\dev\alpharuntime\src\commands\while.cpp
+	<iostream>
+	"../../include/commands/while.h"
+	"../../include/runtime/environment.h"
+	"../../include/exception/syntax_error.h"
+
+1583357966 c:\users\conor\documents\dev\alpharuntime\include\commands\while.h
+	"command.h"
+	<memory>
+
+1583678572 source:c:\users\conor\documents\dev\alpharuntime\src\exception\syntax_error.cpp
+	"../../include/exception/syntax_error.h"
+
+1582301830 source:c:\users\conor\documents\dev\alpharuntime\src\gui\window.cpp
+	"../../include/gui/window.h"
+	<stdexcept>
+
+1594733620 source:c:\users\conor\documents\dev\alpharuntime\src\init\mapper.cpp
+	<stdexcept>
+	<iostream>
+	<string>
+	<memory>
+	"../../include/init/mapper.h"
+	"../../include/exception/syntax_error.h"
+	"../../include/commands/command.h"
+	"../../include/commands/console_out.h"
+	"../../include/commands/console_out_ln.h"
+	"../../include/commands/console_in.h"
+	"../../include/commands/assign.h"
+	"../../include/commands/memory_dump.h"
+	"../../include/commands/if.h"
+	"../../include/commands/endif.h"
+	"../../include/commands/while.h"
+	"../../include/commands/end_while.h"
+	"../../include/commands/call_command.h"
+	"../../include/commands/custom_command.h"
+	"../../include/commands/end_custom_command.h"
+	"../../include/init/command_data.h"
+	"../../include/commands/wait.h"
+	"../../include/commands/create_window.h"
+	"../../include/commands/show_window.h"
+	"../../include/commands/hide_window.h"
+	"../../include/commands/render_window.h"
+	"../../include/commands/clear_window.h"
+	"../../include/commands/draw_rect.h"
+
+1594733555 c:\users\conor\documents\dev\alpharuntime\include\init\mapper.h
+	"../commands/command.h"
+	"../init/command_data.h"
+	<map>
+	<string>
+	<memory>
+
+1579639161 c:\users\conor\documents\dev\alpharuntime\include\runtime\command_data.h
+	<string>
+	<vector>
+
+1594733895 source:c:\users\conor\documents\dev\alpharuntime\src\main.cpp
+	"../include/init/mapper.h"
+	"../include/runtime/interpreter.h"
+	<iostream>
+	<fstream>
+	<string>
+	<sstream>
+
+1585509642 c:\users\conor\documents\dev\alpharuntime\include\runtime\interpreter.h
+	"../commands/command.h"
+	"resolver.h"
+	"searcher.h"
+	<memory>
+	<vector>
+	<utility>
+	<map>
+
+1585509323 source:c:\users\conor\documents\dev\alpharuntime\src\runtime\calculator.cpp
+	<algorithm>
+	<iterator>
+	"../../include/runtime/calculator.h"
+	"../../include/commands/command.h"
+
+1580577933 source:c:\users\conor\documents\dev\alpharuntime\src\runtime\command_data.cpp
+	<string>
+	<vector>
+	"../../include/runtime/command_data.h"
+
+1583006815 source:c:\users\conor\documents\dev\alpharuntime\src\runtime\data_pool.cpp
+	"../../include/runtime/data_pool.h"
+
+1582998991 source:c:\users\conor\documents\dev\alpharuntime\src\runtime\environment.cpp
+	"../../include/runtime/environment.h"
+	"../../include/runtime/searcher.h"
+	"../../include/runtime/resolver.h"
+
+1592501608 source:c:\users\conor\documents\dev\alpharuntime\src\runtime\interpreter.cpp
+	<vector>
+	<memory>
+	<utility>
+	<iostream>
+	<map>
+	"../../include/runtime/interpreter.h"
+	"../../include/runtime/environment.h"
+
+1592143331 source:c:\users\conor\documents\dev\alpharuntime\src\runtime\resolver.cpp
+	<utility>
+	<iostream>
+	"../../include/runtime/resolver.h"
+	"../../include/commands/command.h"
+
+1591975796 source:c:\users\conor\documents\dev\alpharuntime\src\runtime\searcher.cpp
+	<string>
+	<vector>
+	<memory>
+	<stdexcept>
+	"../../include/runtime/searcher.h"
+
+1594489148 source:c:\users\conor\documents\dev\alpharuntime\src\init\command_data.cpp
+	<string>
+	<vector>
+	"../../include/init/command_data.h"
+
+1579639161 c:\users\conor\documents\dev\alpharuntime\include\init\command_data.h
+	<string>
+	<vector>
+
