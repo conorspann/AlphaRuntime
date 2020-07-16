@@ -57,6 +57,7 @@
 		<Unit filename="include/runtime/environment.h" />
 		<Unit filename="include/runtime/interpreter.h" />
 		<Unit filename="include/runtime/resolver.h" />
+		<Unit filename="include/runtime/runtime.h" />
 		<Unit filename="include/runtime/searcher.h" />
 		<Unit filename="include/string_utility.h" />
 		<Unit filename="src/commands/assign.cpp" />
@@ -90,6 +91,7 @@
 		<Unit filename="src/runtime/environment.cpp" />
 		<Unit filename="src/runtime/interpreter.cpp" />
 		<Unit filename="src/runtime/resolver.cpp" />
+		<Unit filename="src/runtime/runtime.cpp" />
 		<Unit filename="src/runtime/searcher.cpp" />
 		<Unit filename="src/string_utility.cpp" />
 		<Extensions>

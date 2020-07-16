@@ -625,15 +625,9 @@
 	<string>
 	<vector>
 
-1594900853 source:c:\users\conor\documents\dev\alpharuntime\src\main.cpp
+1594901944 source:c:\users\conor\documents\dev\alpharuntime\src\main.cpp
 	<iostream>
-	<fstream>
-	<string>
-	<sstream>
-	"../include/string_utility.h"
-	"../include/init/command_importer.h"
-	"../include/init/mapper.h"
-	"../include/runtime/interpreter.h"
+	"../include/runtime/runtime.h"
 
 1585509642 c:\users\conor\documents\dev\alpharuntime\include\runtime\interpreter.h
 	"../commands/command.h"
@@ -694,9 +688,10 @@
 	<string>
 	<vector>
 
-1594900678 source:c:\users\conor\documents\dev\alpharuntime\src\init\command_importer.cpp
+1594900906 source:c:\users\conor\documents\dev\alpharuntime\src\init\command_importer.cpp
 	<string>
 	<vector>
+	"../../include/init/command_importer.h"
 	"../../include/init/command_data.h"
 	"../../include/string_utility.h"
 
@@ -711,4 +706,16 @@
 
 1594900824 c:\users\conor\documents\dev\alpharuntime\include\init\command_importer.h
 	"command_data.h"
+
+1594901835 c:\users\conor\documents\dev\alpharuntime\include\runtime\runtime.h
+
+1594901899 source:c:\users\conor\documents\dev\alpharuntime\src\runtime\runtime.cpp
+	<fstream>
+	<string>
+	<sstream>
+	"../../include/runtime/runtime.h"
+	"../../include/string_utility.h"
+	"../../include/init/command_importer.h"
+	"../../include/init/mapper.h"
+	"../../include/runtime/interpreter.h"
 
