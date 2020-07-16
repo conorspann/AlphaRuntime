@@ -50,6 +50,7 @@
 		<Unit filename="include/exception/syntax_error.h" />
 		<Unit filename="include/gui/window.h" />
 		<Unit filename="include/init/command_data.h" />
+		<Unit filename="include/init/command_importer.h" />
 		<Unit filename="include/init/mapper.h" />
 		<Unit filename="include/runtime/calculator.h" />
 		<Unit filename="include/runtime/data_pool.h" />
@@ -57,6 +58,7 @@
 		<Unit filename="include/runtime/interpreter.h" />
 		<Unit filename="include/runtime/resolver.h" />
 		<Unit filename="include/runtime/searcher.h" />
+		<Unit filename="include/string_utility.h" />
 		<Unit filename="src/commands/assign.cpp" />
 		<Unit filename="src/commands/call_command.cpp" />
 		<Unit filename="src/commands/clear_window.cpp" />
@@ -80,6 +82,7 @@
 		<Unit filename="src/exception/syntax_error.cpp" />
 		<Unit filename="src/gui/window.cpp" />
 		<Unit filename="src/init/command_data.cpp" />
+		<Unit filename="src/init/command_importer.cpp" />
 		<Unit filename="src/init/mapper.cpp" />
 		<Unit filename="src/main.cpp" />
 		<Unit filename="src/runtime/calculator.cpp" />
@@ -88,6 +91,7 @@
 		<Unit filename="src/runtime/interpreter.cpp" />
 		<Unit filename="src/runtime/resolver.cpp" />
 		<Unit filename="src/runtime/searcher.cpp" />
+		<Unit filename="src/string_utility.cpp" />
 		<Extensions>
 			<code_completion />
 			<envvars />
